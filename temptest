@@ -1,0 +1,4 @@
+#!/usr/bin/perl -T
+$tt=$ARGV[0];
+$tt1=$ARGV[1];
+print("vvbbbxxxi".$tt.$tt1);
