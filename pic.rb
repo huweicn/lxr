@@ -207,7 +207,7 @@ module Edge
 end
 
 #####20130315####################################
-afile=File.new("/usr/local/share/db-rtl/lxr/script","r")
+afile=File.new("/usr/local/share/cg-rtl/lxr/script","r")
 $slines=[]
 rectlines=""
 while line=afile.gets

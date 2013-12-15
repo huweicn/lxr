@@ -188,7 +188,7 @@
 		{ 'v' =>
 			{ 'name' => 'Version'
 				# This is the list of versions to index.
-			, 'range' => [qw(  linux-3.5.4 android-2.6.29 
+			, 'range' => [qw(  android-2.6.29  linux-3.5.4 
 						)]
 				# The default version to display
 				# If not specified, first in 'rang' used

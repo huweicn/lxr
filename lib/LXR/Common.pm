@@ -882,6 +882,7 @@ sub httpinit {
 #               $ENV{'QUERY_STRINGSID'}=substr($value[0],2);
 # $ENV{'QUERY_STRINGSID'}=~s/[\r\n]//;
 		$ENV{'QUERY_STRINGPID'}='arm' if substr($value[1],2) eq 'arm';
+		$ENV{'QUERY_STRINGPID'}='x86' if substr($value[1],2) eq 'x86';
 		$ENV{'QUERY_STRINGPID'}='i386' if substr($value[1],2) eq 'i386';
                 $ENV{'QUERY_STRINGPID'}='x86_64' if substr($value[1],2) eq 'x86_64';
 

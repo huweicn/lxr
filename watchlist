@@ -94,7 +94,7 @@ $ttbasurl=sprintf("http://124.16.141.184/lxr");
 #print(">>>".$ttbasurl."<<<<");
 #print("/home/hwei/lxr/./watchfuc-perl".$ENV{'QUERY_STRINGSID'}.$ENV{'QUERY_STRINGPID'}.$path00.$path11."/home/hwei/lxr/source1 /home/hwei/".$ttbasurl."/home/hwei/lxr/source1");
 
-system("/usr/local/share/db-rtl/lxr/./watchfuc-perl $ENV{'QUERY_STRINGSID'} $ENV{'QUERY_STRINGPID'} $path00 $path11 /usr/local/share/db-rtl/lxr/source1 /usr/local/share/db-rtl/lxr/ $ttbasurl /usr/local/share/db-rtl/lxr/source1");
+system("/usr/local/share/cg-rtl/lxr/./watchfuc-perl $ENV{'QUERY_STRINGSID'} $ENV{'QUERY_STRINGPID'} $path00 $path11 /usr/local/share/cg-rtl/lxr/source1 /usr/local/share/cg-rtl/lxr/ $ttbasurl /usr/local/share/cg-rtl/lxr/source1");
 #system("/home/hwei/lxr/./callgraph-perl  $ENV{'QUERY_STRINGSID'} $ENV{'QUERY_STRINGPID'}  $path00 $path11 $c1 /home/hwei/lxr/source1 /home/hwei/ $url /home/hwei/lxr/source1");
 #print($ttbasurl);
 # system("/home/hwei/lxr/./temptest  $ttbasurl  xxxx");
